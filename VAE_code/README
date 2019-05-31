@@ -1,0 +1,12 @@
+We referred to this link for different implementation tricks : https://jmetzen.github.io/2015-11-27/vae.html
+
+Description of files :
+
+mnist_data.py : Downloads the data from Yann LeCunn's website and does some preprocessing (extracts the data, labels, randomly shuffles the data)
+vae.py : implementation of Variational AutoEncoder
+run_main.py : main function which puts everything together
+plot_utils.py: Plotting the reconstructed images and tsne representations
+
+To run the code :
+
+python run_main.py --dim_z 10 --num_epochs 100
